@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Rust / Tauri build output
+src-tauri/target/
+
+# Tauri generated schemas
+src-tauri/gen/schemas/
+
+# Runtime logs
+logs/
+
+# Generated icons (regenerate with: npm run icons)
+src-tauri/icons/
