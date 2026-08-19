@@ -10,7 +10,7 @@
     "dev": "tauri dev",
     "build": "tauri build",
     "build:portable": "tauri build --no-bundle",
-    "icons": "tauri icon tools/icon.png"
+    "icons": "tauri icon tools/deepseek-whale.svg"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2"

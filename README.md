@@ -55,8 +55,8 @@ Build/server logs are written to `logs/`.
 | `npm run dev` | Run in dev mode |
 | `npm run build` | Build NSIS installer |
 | `npm run build:portable` | Standalone exe only |
-| `npm run icons` | Regenerate window icons from `tools/icon.png` |
-| `python tools/gen-icon.py` | Regenerate the icon source image |
+| `npm run icons` | Regenerate window icons from `tools/deepseek-whale.svg` |
+| `python tools/gen-icon.py` | Regenerate the icon source SVG (edit `COLOR` in the script to re-tint) |
 
 ## 配置（Env overrides）
 
@@ -72,7 +72,8 @@ Build/server logs are written to `logs/`.
 client/
 ├── client-ui/            # Loading page (shown before the server is ready)
 ├── scripts/dsh-server.mjs# Launcher: build-if-stale + dsh web + status lines
-├── tools/gen-icon.py     # Icon source generator
+├── tools/deepseek-whale.svg # Icon source: DeepSeek whale logo, bright green
+├── tools/gen-icon.py     # Regenerates the icon source SVG (change COLOR to re-tint)
 ├── src-tauri/            # Tauri (Rust) shell
 │   └── src/
 │       ├── lib.rs        # Tauri entry, server_status command
